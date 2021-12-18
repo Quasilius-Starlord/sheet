@@ -54,6 +54,7 @@ public:
             }
         }
         int temp;
+        i=0;j=num.size();
         while(i<j){
             //exchange
             temp=num[i];
@@ -67,7 +68,7 @@ public:
         {
             std::cout << num[i] << " ";
         }
-        
+
         return num;
     }
 };
